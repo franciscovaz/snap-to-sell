@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Snap2Sell
 
-## Getting Started
+Snap2Sell is a smart assistant that helps you quickly sell your unused items using just photos.
 
-First, run the development server:
+📸 Upload a picture → 🤖 Get a description and price → 🚀 Sell on OLX, Custo Justo or Facebook Marketplace
+
+## 🧠 Key Features (MVP)
+- Upload item photos
+- Auto-generate title, description, category, and suggested price using AI
+- Scrape similar listings from OLX/Custo Justo to calculate fair price
+- Copy listing info with one click for easy pasting into marketplaces
+
+## ⚙️ Tech Stack
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- TypeScript
+- AI models (e.g. OpenAI GPT-4 Vision or HuggingFace BLIP)
+- Web scraping (Cheerio, Axios)
+
+## 🚧 Project Status
+> MVP under active development.
+
+## 📦 Getting Started (Local Dev)
 
 ```bash
+git clone https://github.com/franciscovaz/snap-to-sell.git
+cd snap-to-sell
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Project Goals
+- Make selling as easy as taking a photo
+- Help users price their items fairly
+- Streamline the multi-platform listing process
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by Francisco Vaz
